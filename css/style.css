@@ -10,6 +10,7 @@ nav{
     background-color:#323946;
     padding: 20px 0px;
     width: 100%;
+    
 }
 .menu-bar{
     display: none;
@@ -30,7 +31,85 @@ a{
     color: #fff;
     
 }
+.img-slider{
+    
+    width: 100%;
+    max-height: 90.5vh;
+}
+/*container*/
+.container{
+   margin: 20px 100px;
+   display: flex;
+   height: 300px;
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+   
+}
 
+.iconos-conten{
+    
+    padding: 10px;
+    color: rgb(96, 170, 231);
+    border: 1px outset  blue;
+    font-size: 50px;
+}
+
+.container-icom{
+    margin-top: 40px    ;
+    margin-bottom: 30px;
+}
+.container-parrafos h2{
+    margin-bottom: 20px;
+}
+/*aside*/
+.img-aside{
+    width: 100%;
+    display: block;
+    display: block;
+}
+/*container section*/
+
+
+.container-enlaces{
+   
+   display: flex;
+   background-color: #44BEF1;
+justify-content: space-between;
+border: 1px solid gray;
+padding: 20px;
+}
+
+.container-enlaces a{
+    text-align: center;
+}
+.container-abouts{
+    max-width: 100%;
+    display: flex;
+    margin: 100px;
+}
+
+.container-logros{
+    display: flex;
+}
+.container-about-primero{
+    
+    max-width: 50%;
+    margin: 30px;
+}
+.container-about-segundo{
+width: 60%;
+    margin: 30px;
+
+}
+.container-about-segundo-parrafo{
+    font-size: 15px;
+}
+.title-abouts{
+    margin-top:70px;
+    font-size: 50px;
+    text-align: center;
+}
 @media (max-width: 1095px){
     ul{
         max-width: 100%;
@@ -45,6 +124,11 @@ a{
         display: flex;  
         justify-content: space-evenly;
     }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
 }
 @media(max-width:598px){
     .nav-enlaces{
@@ -52,12 +136,15 @@ a{
     }
     .menu-bar{
         
-        padding: 20px 50px;
+        padding: 0px 50px;
         color: #fff;
         font-size: 20px;
         background-color:#323946;
         display: flex;
         justify-content: right;
+    }
+    .img-aside{
+        margin-top: 250px;
     }
 }
 .nav-enlaces-visible{
